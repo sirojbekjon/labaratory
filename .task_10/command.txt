@@ -1,10 +1,10 @@
-553* kubectl expose deployment flask-app --port 80 --target-port 5000 -n s-38
-  554* kubectl get svc -n s-38
-  555* kubectl port-forward service/flask-app 8088:80 -n s-38 & > portforward.txt
-  556  cat portforward.txt
-  557  curl localhost:8088 > portforward.txt
-  558  cat portforward.txt
-  559  curl localhost:8088 > portforward.txt
-  560* kubectl port-forward service/flask-app 8090:80 -n s-38 & > portforward.txt
-  561  curl localhost:8090 > portforward.txt
+       kubectl expose deployment flask-app --port 80 --target-port 5000 -n s-38
+       kubectl get svc -n s-38
+       kubectl port-forward service/flask-app 8088:80 -n s-38 & > portforward.txt
+       cat portforward.txt
+       curl localhost:8088 > portforward.txt
+       cat portforward.txt
+       curl localhost:8088 > portforward.txt
+       kubectl port-forward service/flask-app 8090:80 -n s-38 & > portforward.txt
+       curl localhost:8090 > portforward.txt
 
