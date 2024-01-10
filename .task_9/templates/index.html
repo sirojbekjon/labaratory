@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{% block title %} Books {% endblock %}</h1>
+{% for book in books %}
+<div class='book'>
+    <h3>{{ book[0] }} - {{ book[1] }} CEO: {{ book[2] }}</h3>
+    <i>
+        <p>(Address: {{ book[3] }})</p>
+    </i>
+</div>
+{% endfor %}
+{% endblock %}
