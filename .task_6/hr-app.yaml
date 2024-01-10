@@ -1,0 +1,23 @@
+#nginx-deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hr-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+      version: v1      
+  template:
+    metadata:
+      labels:
+        app: nginx 
+        version: v1
+    spec:
+      containers:
+      - name: hr-app
+        image: nginx:1.18
+
+
+

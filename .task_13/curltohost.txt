@@ -1,0 +1,1 @@
+{"domain":"arzongina.uz","endpoint":"/check-ingress","full_path:":"arzongina.uz/check-ingress"}

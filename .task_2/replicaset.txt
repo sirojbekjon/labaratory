@@ -1,0 +1,2 @@
+pod/nginx1 unchanged
+pod/nginx2 unchanged

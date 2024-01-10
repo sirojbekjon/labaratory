@@ -1,0 +1,1 @@
+ k create ingress nginx-in --rule "/practice=nginx:80"

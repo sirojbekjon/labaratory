@@ -1,0 +1,4 @@
+  620  kubectl get nodes -o wide -n s-38
+  621  kubectl get svc flask-app -n s-38
+  622  curl 65.109.14.160:31707 > NodePort.txt
+

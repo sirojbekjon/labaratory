@@ -1,0 +1,1 @@
+kubectl get replicaset -n s-38

@@ -1,0 +1,10 @@
+1) kubectl create deploy flask-app --image sirojziyo/task9:v1 --replicas 1 -n s-38
+
+2) k create ingress flask-app-ingress --rule "arzongina.uz/check-ingress=flask-app:80" -n s-38
+3) k edit ingress flask-app-ingress
+
+4)  annotations:
+      kubernetes.io/ingress.class: nginx
+
+5)curl arzongina.uz/check-ingress > curltohost.txt
+

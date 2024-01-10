@@ -1,0 +1,2 @@
+kubectl get pods --all-namespaces -l project=practice > .task_4/allproject.txt
+
