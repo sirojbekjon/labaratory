@@ -1,0 +1,5 @@
+1) docker build -t task9:v1 .
+2) docker login
+3) docker tag task9:v1 sirojziyo/task9:v1
+4) docker push sirojziyo/task9:v1
+
